@@ -3,19 +3,19 @@ import React from "react"
 export default () => (
   <>
     <div className="min-h-screen bg-black flex flex-col">
-      <nav className="flex items-center bg-gray-900 text-white text-xl h-12 font-thin font-normal w-full">
+      <nav className="flex items-center bg-gray-800-twitch text-white-twitch text-xl h-12 font-thin font-normal w-full">
         <div className="flex items-center w-full justify-start">
           <img src="./images/twitchtvlogo.png" className="h-8 w-8 ml-2 mr-4 mt-2" />
-          <div className="mr-6 text-purple-600 border-purple-600 border-b-2 p-2"><a href="/">Discover</a></div>
-          <div className="mr-6 p-2 hover:text-purple-600"><a href="/">Following</a></div>
-          <div className="mr-6 p-2 hover:text-purple-600 hover:"><a href="/">Browse</a></div>
+          <div className="mr-6 text-purple-twitch border-purple-twitch border-b-2 p-2"><a href="/">Discover</a></div>
+          <div className="mr-6 p-2 hover:text-purple-twitch"><a href="/">Following</a></div>
+          <div className="mr-6 p-2 hover:text-purple-twitch"><a href="/">Browse</a></div>
           <div className="mr-6 p-2 -mt-2 font-semibold"><button>...</button></div>
         </div>
 
         <div className="w-64 flex w-full justify-center">
-          <input className="rounded-l text-gray-600 w-1/2 bg-gray-800 h-8 pl-4 pr-8 border-2 border-gray-800 outline-none text-sm focus:border-purple-600 focus:outline-none focus:bg-black focus:border-purple-500 mr-px focus:text-white" placeholder="Search" />
-          <button className="w-8 h-8 bg-gray-800 rounded-r border-gray-900 p-1">
-            <svg className="w-6 h-6 fill-current" version="1.1" viewBox="0 0 20 20" x="0px" y="0px"><g><path fill-rule="evenodd" d="M13.192 14.606a7 7 0 111.414-1.414l3.101 3.1-1.414 1.415-3.1-3.1zM14 9A5 5 0 114 9a5 5 0 0110 0z" clip-rule="evenodd"></path></g></svg>
+          <input className="rounded-l text-white-twitch w-1/2 bg-gray-700-twitch h-8 pl-4 pr-8 border-2 border-gray-700-twitch outline-none text-sm focus:border-purple-twitch focus:outline-none focus:bg-black focus:border-purple-twitch mr-px focus:text-white-twitch" placeholder="Search" />
+          <button className="w-8 h-8 bg-gray-750-twitch rounded-r border-gray-750-twitch p-1">
+            <svg className="w-6 h-6 text-gray-400-twitch fill-current" version="1.1" viewBox="0 0 20 20" x="0px" y="0px"><g><path fill-rule="evenodd" d="M13.192 14.606a7 7 0 111.414-1.414l3.101 3.1-1.414 1.415-3.1-3.1zM14 9A5 5 0 114 9a5 5 0 0110 0z" clip-rule="evenodd"></path></g></svg>
           </button>
         </div>
 
@@ -35,14 +35,14 @@ export default () => (
           <img src="https://static-cdn.jtvnw.net/user-default-pictures-uv/dbdc9198-def8-11e9-8681-784f43822e80-profile_image-70x70.png" alt="" className="rounded-full w-8 h-8 mr-2" />
         </div>
       </nav>
-      <div className="mt-1 bg-gray-900 w-64 flex flex-col flex-1 justify-between">
+      <div className="mt-1 bg-gray-800-twitch w-64 flex flex-col flex-1 justify-between">
 
         <div className="flex flex-col">
           {/* FOLLOWED CHANNELS */}
           <div className="">
             <div className="flex justify-between mt-2 ml-2 w-auto items-center">
-              <span className="text-white uppercase font-semibold text-sm tracking-tighter flex">Followed Channels</span>
-              <svg className="text-white fill-current w-6 h-6 flex mr-3" version="1.1" viewBox="0 0 20 20" x="0px" y="0px"><g><path d="M16 16V4h2v12h-2zM6 9l2.501-2.5-1.5-1.5-5 5 5 5 1.5-1.5-2.5-2.5h8V9H6z"></path></g></svg>
+              <span className="text-white-twitch uppercase font-semibold text-sm tracking-tighter flex">Followed Channels</span>
+              <svg className="text-white-twitch fill-current w-6 h-6 flex mr-3" version="1.1" viewBox="0 0 20 20" x="0px" y="0px"><g><path d="M16 16V4h2v12h-2zM6 9l2.501-2.5-1.5-1.5-5 5 5 5 1.5-1.5-2.5-2.5h8V9H6z"></path></g></svg>
             </div>
             <div>
             </div>
@@ -50,13 +50,13 @@ export default () => (
               <div className="flex">
                 <img src="./images/scarra.jpeg" alt="Scarra" className="rounded-full h-10 h-10 mr-2" />
                 <div className="flex flex-col">
-                  <span className="text-white text-sm font-semibold">Scarra</span>
+                  <span className="text-white-twitch text-sm font-semibold">Scarra</span>
                   <span className="-mt-1 text-gray-400 text-sm tracking-tighter font-hairline">Monster Hunter World</span>
                 </div>
               </div>
               <div className="flex items-center">
                 <i className="bg-red-600 w-2 h-2 rounded-full mt-1 mr-1"></i>
-                <span className="text-white mr-3 text-sm">4,120</span>
+                <span className="text-white-twitch mr-3 text-sm">4,120</span>
               </div>
             </div>
 
@@ -64,13 +64,13 @@ export default () => (
               <div className="flex">
                 <img src="./images/scarra.jpeg" alt="Scarra" className="rounded-full h-10 h-10 mr-2" />
                 <div className="flex flex-col">
-                  <span className="text-white text-sm font-semibold">Scarra</span>
+                  <span className="text-white-twitch text-sm font-semibold">Scarra</span>
                   <span className="-mt-1 text-gray-400 text-sm tracking-tighter font-hairline">Monster Hunter World</span>
                 </div>
               </div>
               <div className="flex items-center">
                 <i className="bg-red-600 w-2 h-2 rounded-full mt-1 mr-1"></i>
-                <span className="text-white mr-3 text-sm">4,120</span>
+                <span className="text-white-twitch mr-3 text-sm">4,120</span>
               </div>
             </div>
 
@@ -78,13 +78,13 @@ export default () => (
               <div className="flex">
                 <img src="./images/scarra.jpeg" alt="Scarra" className="rounded-full h-10 h-10 mr-2" />
                 <div className="flex flex-col">
-                  <span className="text-white text-sm font-semibold">Scarra</span>
+                  <span className="text-white-twitch text-sm font-semibold">Scarra</span>
                   <span className="-mt-1 text-gray-400 text-sm tracking-tighter font-hairline">Monster Hunter World</span>
                 </div>
               </div>
               <div className="flex items-center">
                 <i className="bg-red-600 w-2 h-2 rounded-full mt-1 mr-1"></i>
-                <span className="text-white mr-3 text-sm">4,120</span>
+                <span className="text-white-twitch mr-3 text-sm">4,120</span>
               </div>
             </div>
 
@@ -92,13 +92,13 @@ export default () => (
               <div className="flex">
                 <img src="./images/scarra.jpeg" alt="Scarra" className="rounded-full h-10 h-10 mr-2" />
                 <div className="flex flex-col">
-                  <span className="text-white text-sm font-semibold">Scarra</span>
+                  <span className="text-white-twitch text-sm font-semibold">Scarra</span>
                   <span className="-mt-1 text-gray-400 text-sm tracking-tighter font-hairline">Monster Hunter World</span>
                 </div>
               </div>
               <div className="flex items-center">
                 <i className="bg-red-600 w-2 h-2 rounded-full mt-1 mr-1"></i>
-                <span className="text-white mr-3 text-sm">4,120</span>
+                <span className="text-white-twitch mr-3 text-sm">4,120</span>
               </div>
             </div>
 
@@ -106,13 +106,13 @@ export default () => (
               <div className="flex">
                 <img src="./images/scarra.jpeg" alt="Scarra" className="rounded-full h-10 h-10 mr-2" />
                 <div className="flex flex-col">
-                  <span className="text-white text-sm font-semibold">Scarra</span>
+                  <span className="text-white-twitch text-sm font-semibold">Scarra</span>
                   <span className="-mt-1 text-gray-400 text-sm tracking-tighter font-hairline">Monster Hunter World</span>
                 </div>
               </div>
               <div className="flex items-center">
                 <i className="bg-red-600 w-2 h-2 rounded-full mt-1 mr-1"></i>
-                <span className="text-white mr-3 text-sm">4,120</span>
+                <span className="text-white-twitch mr-3 text-sm">4,120</span>
               </div>
             </div>
 
@@ -120,13 +120,13 @@ export default () => (
               <div className="flex">
                 <img src="./images/scarra.jpeg" alt="Scarra" className="rounded-full h-10 h-10 mr-2" />
                 <div className="flex flex-col">
-                  <span className="text-white text-sm font-semibold">Scarra</span>
+                  <span className="text-white-twitch text-sm font-semibold">Scarra</span>
                   <span className="-mt-1 text-gray-400 text-sm tracking-tighter font-hairline">Monster Hunter World</span>
                 </div>
               </div>
               <div className="flex items-center">
                 <i className="bg-red-600 w-2 h-2 rounded-full mt-1 mr-1"></i>
-                <span className="text-white mr-3 text-sm">4,120</span>
+                <span className="text-white-twitch mr-3 text-sm">4,120</span>
               </div>
             </div>
           </div>
@@ -136,13 +136,13 @@ export default () => (
           {/* ONLINE FRIENDS */}
           <div>
             <div className="mt-2 ml-2 w-auto">
-              <span className="text-white uppercase font-semibold text-sm tracking-tight">ONLINE FRIENDS</span>
+              <span className="text-white-twitch uppercase font-semibold text-sm tracking-tight">ONLINE FRIENDS</span>
             </div>
             <div className="mt-3 ml-2 flex justify-between">
               <div className="flex">
                 <img src="./images/yops.jpeg" alt="Scarra" className="rounded-full h-10 h-10 mr-2" />
                 <div className="flex flex-col">
-                  <span className="text-white text-sm font-semibold">Yops</span>
+                  <span className="text-white-twitch text-sm font-semibold">Yops</span>
                   <span className="-mt-1 text-gray-400 text-sm tracking-tighter font-hairline">Away</span>
                 </div>
               </div>
@@ -153,7 +153,8 @@ export default () => (
         {/* SEARCH TO ADD FRIENDS */}
         <div>
           <div className="flex pt-3 pb-2 px-3 border border-gray-800 mt-4">
-            <input className="border-2 border-gray-800 w-full rounded bg-gray-800 pl-8 text-gray-600 focus:border-purple-600 focus:outline-none focus:bg-black focus:border-purple-500 focus:text-white" placeholder="Search to Add Friends" />
+            <input className="border-2 border-gray-700-twitch w-full rounded bg-gray-700-twitch pl-8 text-gray-600 focus:border-purple-twitch focus:outline-none focus:bg-black focus:text-white-twitch"
+            placeholder="Search to Add Friends" />
             <svg className="w-6 h-6 text-gray-600 fill-current absolute ml-1" version="1.1" viewBox="0 0 20 20" x="0px" y="0px"><g><path fill-rule="evenodd" d="M13.192 14.606a7 7 0 111.414-1.414l3.101 3.1-1.414 1.415-3.1-3.1zM14 9A5 5 0 114 9a5 5 0 0110 0z" clip-rule="evenodd"></path></g></svg>
           </div>
         </div>
